@@ -1,0 +1,22 @@
+{
+  "name": "VideoChat",
+  "version": "0.0.1",
+  "description": "Video Chatting Application",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "socket.io",
+    "video chat"
+  ],
+  "author": "111",
+  "license": "MIT",
+  "dependencies": {
+    "node-static": "~0.7.1",
+    "socket.io": "~0.9.16",
+    "express": "~3.4.0",
+    "firebase"
+  }
+}
