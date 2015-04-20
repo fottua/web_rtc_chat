@@ -91,7 +91,7 @@
 
                 var config = {
                     openSocket: function(config) {
-                        var channel = config.channel || location.href.replace( /\/|:|#|%|\.|\[|\]/g , '');
+                        var channel = config.channel || "chachacha11".replace( /\/|:|#|%|\.|\[|\]/g , '');
                         var socket = new Firebase('https://webrtc.firebaseIO.com/' + channel);
                         console.log("channel: "+channel);
                         socket.channel = channel;

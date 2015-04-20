@@ -9,7 +9,7 @@ var app = http.createServer(function(req, res) {
 
 var config = {
     openSocket: function(config) {
-        var channel = config.channel || 'http://localhost:3000'.replace( /\/|:|#|%|\.|\[|\]/g , '');
+        var channel = config.channel || 'chachacha11'.replace( /\/|:|#|%|\.|\[|\]/g , '');
         console.log("open socket on channel: "+channel)
         var socket = new Firebase('https://webrtc.firebaseIO.com/' + channel);
         socket.channel = channel;
